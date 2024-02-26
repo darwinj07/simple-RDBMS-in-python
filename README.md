@@ -1,4 +1,4 @@
-# simple-RDBMS-in-python
+# simplified-RDBMS-in-python
 Implementation of simplified RDBMS in Python, using Lark for parsing and Oracle Berkeley DB.
 Supports following statements:
 
