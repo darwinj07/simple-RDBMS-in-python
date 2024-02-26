@@ -1,9 +1,8 @@
 # simple-RDBMS-in-python
 Implementation of simplified RDBMS in Python, using Lark for parsing and Oracle Berkeley DB.
 Supports following statements:
-```CREATE TABLE, DROP TABLE, EXPLAIN/DESCRIBE/DESC, SHOW TABLES, INSERT TABLE, SELECT```
 
-Certainly! Here's the message formatted into a table with two columns:
+```CREATE TABLE, DROP TABLE, EXPLAIN/DESCRIBE/DESC, SHOW TABLES, INSERT TABLE, SELECT```
 
 | Message Type                           | Message                                                          |
 |----------------------------------------|------------------------------------------------------------------|
@@ -22,7 +21,6 @@ Certainly! Here's the message formatted into a table with two columns:
 | NoSuchTable                            | No such table                                                    |
 | DropReferencedTableError(#tableName)   | Drop table has failed: '#tableName' is referenced by other table |
 | SelectTableExistenceError(#tableName)  | Selection has failed: '#tableName' does not exist                 |
-| NoSuchTable                            | No such table                                                    |
 | InsertResult                           | 1 row inserted                                                   |
 | InsertTypeMismatchError                | Insertion has failed: Types are not matched                       |
 | InsertColumnExistenceError(#colName)  | Insertion has failed: '#colName' does not exist                  |
