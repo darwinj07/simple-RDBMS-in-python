@@ -36,3 +36,20 @@ Supports following statements:
 | InsertReferentialIntegrityError           | Insertion has failed: Referential integrity violation |
 | DeleteReferentialIntegrityPassed(#count)  | ‘#count’ row(s) are not deleted due to referential integrity |
 
+## Installing Dependencies
+### macOS
+```bash
+brew install berkeley-db@18
+YES_I_HAVE_THE_RIGHT_TO_USE_THIS_BERKELEY_DB_VERSION=1 pip install -r requirements.txt
+```
+
+### Linux(Debian)
+```bash
+sudo apt-get install libdb-dev
+pip install -r requirements.txt
+```
+
+## Running
+```bash
+python3 run.py
+```
