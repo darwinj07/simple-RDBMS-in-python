@@ -2,7 +2,14 @@
 Implementation of simplified RDBMS in Python, using Lark for parsing and Oracle Berkeley DB.
 Supports following statements:
 
-```CREATE TABLE, DROP TABLE, EXPLAIN/DESCRIBE/DESC, SHOW TABLES, INSERT TABLE, SELECT```
+- `CREATE TABLE` 
+- `DROP TABLE` 
+- `EXPLAIN/DESCRIBE/DESC` 
+- `SHOW TABLES`
+- `INSERT TABLE`
+- `SELECT`
+
+## Messages
 
 | Message Type                           | Message                                                          |
 |----------------------------------------|------------------------------------------------------------------|
